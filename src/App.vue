@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GroupLinks msg="Вяжем для наших"/>
+    <GroupLinks msg="Шьем для наших"/>
+    <GroupLinks msg="Военторг"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GroupLinks from './components/GroupLinks.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GroupLinks
   }
 }
 </script>
@@ -25,4 +26,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.logo-1 {
+  width: 300px;
+  height: 300px;
+}
+
+
 </style>
